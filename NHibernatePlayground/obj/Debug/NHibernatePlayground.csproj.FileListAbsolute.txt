@@ -1,0 +1,12 @@
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\NHibernatePlayground.exe.config
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\NHibernatePlayground.exe
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\NHibernatePlayground.pdb
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\FluentNHibernate.dll
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\Iesi.Collections.dll
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\NHibernate.dll
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\FluentNHibernate.pdb
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\FluentNHibernate.xml
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\Iesi.Collections.xml
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\bin\Debug\NHibernate.xml
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\obj\Debug\NHibernatePlayground.exe
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\NHibernatePlayground\obj\Debug\NHibernatePlayground.pdb

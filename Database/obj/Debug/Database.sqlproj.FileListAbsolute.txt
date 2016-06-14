@@ -1,0 +1,9 @@
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\Database\bin\Debug\Database.dacpac
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\Database\bin\Debug\Database.dll
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\Database\bin\Debug\Database.pdb
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\Database\obj\Debug\Model.xml
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\Database\obj\Debug\refactor.xml
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\Database\obj\Debug\postdeploy.sql
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\Database\obj\Debug\predeploy.sql
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\Database\obj\Debug\Database.dll
+C:\Users\Eugene\Documents\dotNET\NHibernatePlayground\Database\obj\Debug\Database.pdb
