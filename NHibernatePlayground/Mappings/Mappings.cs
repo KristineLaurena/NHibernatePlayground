@@ -16,6 +16,7 @@ namespace NHibernatePlayground.Mappings
             Map(x => x.Name);
             HasMany(x => x.Skus)
                 .KeyColumn("ProductId")
+                //.ExtraLazyLoad()
                 .Inverse()
                 .Cascade.SaveUpdate();            
         }

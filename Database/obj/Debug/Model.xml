@@ -51,25 +51,6 @@
 					<Element Type="SqlIndexedColumnSpecification">
 						<Relationship Name="Column">
 							<Entry>
-								<References Name="[dbo].[ProductSku].[Id]" />
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-			</Relationship>
-			<Relationship Name="DefiningTable">
-				<Entry>
-					<References Name="[dbo].[ProductSku]" />
-				</Entry>
-			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
-		</Element>
-		<Element Type="SqlPrimaryKeyConstraint">
-			<Relationship Name="ColumnSpecifications">
-				<Entry>
-					<Element Type="SqlIndexedColumnSpecification">
-						<Relationship Name="Column">
-							<Entry>
 								<References Name="[dbo].[Product].[Id]" />
 							</Entry>
 						</Relationship>
@@ -79,6 +60,26 @@
 			<Relationship Name="DefiningTable">
 				<Entry>
 					<References Name="[dbo].[Product]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Property Name="IsAscending" Value="False" />
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[ProductSku].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[ProductSku]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="4" />
@@ -101,7 +102,7 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="4" />
+						<AttachedAnnotation Disambiguator="3" />
 					</Element>
 				</Entry>
 				<Entry>
@@ -145,7 +146,6 @@
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="3" />
 					</Element>
 				</Entry>
 				<Entry>
@@ -199,6 +199,25 @@
 			<Relationship Name="Schema">
 				<Entry>
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="4" />
+		</Element>
+		<Element Type="SqlIndex" Name="[dbo].[ProductSku].[IX_ProductSku_Column]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[ProductSku].[ProductId]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="IndexedObject">
+				<Entry>
+					<References Name="[dbo].[ProductSku]" />
 				</Entry>
 			</Relationship>
 		</Element>
